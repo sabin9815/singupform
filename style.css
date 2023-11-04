@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70vh;
+    margin: auto;
+    height: 70vh;
+    margin-top: 5rem;
+}
+
+.container .header{
+background-color: white;
+margin-top: 10px;
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
+.container .header h1{
+    color: black;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.container .header p{
+    margin-top: 10px;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   padding: 25px;
+}
+
+form label{
+
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.basic-info{
+    height: 30%;
+    padding: 15px;
+    border: 2px solid rgb(228, 221, 221);
+    background-color: rgb(228, 221, 221);
+    border-radius: 5px ;
+    cursor: initial;
+}
+
+input[type="checkbox"] {
+    width: 15px; /* Adjust the width as needed */
+    height: 15px; /* Adjust the height as needed */
+    cursor: pointer;
+
+}
+
+span{
+
+font-size: 18px;
+border: 1px dotted black;
+padding: 5px;
+color: red;
+}
+
+button{
+    margin-top: 20px;
+    background-color: blue;
+    width: 50vh;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+    width: 60vh;
+    font-size: 25px;
+transition: 3ms;
+}
+
+form p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
